@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.3)  28 JAN 2017 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.3)  28 JAN 2017 17:37
 entering extended mode
 **./report.tex
 (report.tex
@@ -610,19 +610,19 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 ) (report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 57.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -642,34 +642,34 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 59.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 60.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 59.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 60.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 59.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 60.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 59.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 60.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 59.
+(Font)              <12> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 59.
+(Font)              <8> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 59.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 59.
+(Font)              <6> on input line 60.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 60.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -678,19 +678,19 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: images/hand_gestures.png Graphic file (type png)
 
 <use images/hand_gestures.png>
-Package pdftex.def Info: images/hand_gestures.png used on input line 69.
+Package pdftex.def Info: images/hand_gestures.png used on input line 70.
 (pdftex.def)             Requested size: 530.0pt x 92.65056pt.
 
-Overfull \hbox (2.42879pt too wide) in paragraph at lines 69--70
+Overfull \hbox (2.42879pt too wide) in paragraph at lines 70--71
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 80.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 81.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 80.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 81.
  [1
 
 {C:/Users/Jose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/han
@@ -699,14 +699,14 @@ d_gestures.png>]
 File: images/threshold_example.png Graphic file (type png)
 
 <use images/threshold_example.png>
-Package pdftex.def Info: images/threshold_example.png used on input line 98.
+Package pdftex.def Info: images/threshold_example.png used on input line 99.
 (pdftex.def)             Requested size: 300.0pt x 150.21677pt.
 
 <images/svm_simple.png, id=17, 322.20375pt x 271.76532pt>
 File: images/svm_simple.png Graphic file (type png)
 
 <use images/svm_simple.png>
-Package pdftex.def Info: images/svm_simple.png used on input line 112.
+Package pdftex.def Info: images/svm_simple.png used on input line 113.
 (pdftex.def)             Requested size: 310.0pt x 261.48058pt.
 
 
@@ -717,23 +717,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: images/processing.png Graphic file (type png)
 
 <use images/processing.png>
-Package pdftex.def Info: images/processing.png used on input line 134.
+Package pdftex.def Info: images/processing.png used on input line 135.
 (pdftex.def)             Requested size: 330.0pt x 172.11572pt.
  [3 <./images/svm_simple.png> <./images/processing.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 153.
+(Font)              <10> on input line 154.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 153.
+(Font)              <7> on input line 154.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 153.
+(Font)              <5> on input line 154.
  [4] [5] <images/screenshots.png, id=35, 2892.30562pt x 813.0375pt>
 File: images/screenshots.png Graphic file (type png)
 
 <use images/screenshots.png>
-Package pdftex.def Info: images/screenshots.png used on input line 242.
+Package pdftex.def Info: images/screenshots.png used on input line 243.
 (pdftex.def)             Requested size: 530.0pt x 148.9829pt.
 
-Overfull \hbox (2.42879pt too wide) in paragraph at lines 242--243
+Overfull \hbox (2.42879pt too wide) in paragraph at lines 243--244
  [][] 
  []
 
@@ -741,10 +741,10 @@ Overfull \hbox (2.42879pt too wide) in paragraph at lines 242--243
 File: images/test_preprocessing.png Graphic file (type png)
 
 <use images/test_preprocessing.png>
-Package pdftex.def Info: images/test_preprocessing.png used on input line 271.
+Package pdftex.def Info: images/test_preprocessing.png used on input line 272.
 (pdftex.def)             Requested size: 530.0pt x 97.93535pt.
 
-Overfull \hbox (2.42879pt too wide) in paragraph at lines 271--272
+Overfull \hbox (2.42879pt too wide) in paragraph at lines 272--273
  [][] 
  []
 
@@ -753,9 +753,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6 <./images/screenshots.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 327.
+(Font)              <9> on input line 328.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 300--359
+Overfull \hbox (15.0pt too wide) in paragraph at lines 301--360
 []$[]$ 
  []
 
@@ -764,7 +764,7 @@ File: images/results_svm_parameters.png Graphic file (type png)
 
 <use images/results_svm_parameters.png>
 Package pdftex.def Info: images/results_svm_parameters.png used on input line 3
-64.
+65.
 (pdftex.def)             Requested size: 500.0pt x 155.55478pt.
 
 
@@ -791,7 +791,7 @@ Underfull \hbox (badness 4792) in paragraph at lines 42--47
 Here is how much of TeX's memory you used:
  6126 strings out of 493634
  87647 string characters out of 3143748
- 178307 words of memory out of 3000000
+ 178326 words of memory out of 3000000
  9388 multiletter control sequences out of 15000+200000
  67680 words of font info for 51 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -810,7 +810,7 @@ blic/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/lm/lmtt12.pfb>
-Output written on report.pdf (9 pages, 4497150 bytes).
+Output written on report.pdf (9 pages, 4497166 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
