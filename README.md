@@ -1,0 +1,5 @@
+# HandNumbersClassifier
+
+Hand gesture recognition implies the use of image processing along with visual data mining to correctly identify specific gestures that are present in an image. For this, the gesture has to be performed in front of the camera, where the image of every capture frame is preprocessed and then passed through a machine learning model that identifies the correct class of the image, in this case the gesture shown. This challenge is then a multi-class classification problem, where the meaning of the gesture represents its class.
+
+The current work offers a solution for this, by presenting a simple classifier that is able to identify between five different gestures (numbers from 1 to 5), when they are shown towards a camera. Before performing the prediction the image is passed through a preprocessing stage, that facilitates the identification of the image. Different preprocessing approaches are tested and then passed to a SVM model that classifies the gestures shown as a number between 1 to 5 or a non-gesture.
