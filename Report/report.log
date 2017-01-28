@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.3)  27 JAN 2017 03:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.3)  28 JAN 2017 17:26
 entering extended mode
 **./report.tex
 (report.tex
@@ -674,83 +674,128 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 59.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 75.
+<images/hand_gestures.png, id=1, 3203.97pt x 560.0925pt>
+File: images/hand_gestures.png Graphic file (type png)
 
+<use images/hand_gestures.png>
+Package pdftex.def Info: images/hand_gestures.png used on input line 69.
+(pdftex.def)             Requested size: 530.0pt x 92.65056pt.
+
+Overfull \hbox (2.42879pt too wide) in paragraph at lines 69--70
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 80.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 75.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 80.
  [1
 
-{C:/Users/Jose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<images/svm_simple.png, id=13, 322.20375pt x 271.76532pt>
+{C:/Users/Jose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/han
+d_gestures.png>]
+<images/threshold_example.png, id=16, 533.74406pt x 267.24844pt>
+File: images/threshold_example.png Graphic file (type png)
+
+<use images/threshold_example.png>
+Package pdftex.def Info: images/threshold_example.png used on input line 98.
+(pdftex.def)             Requested size: 300.0pt x 150.21677pt.
+
+<images/svm_simple.png, id=17, 322.20375pt x 271.76532pt>
 File: images/svm_simple.png Graphic file (type png)
 
 <use images/svm_simple.png>
-Package pdftex.def Info: images/svm_simple.png used on input line 99.
-(pdftex.def)             Requested size: 300.0pt x 253.04599pt.
- [2 <./images/svm_simple.png>]
-<images/processing.png, id=17, 523.9575pt x 273.27094pt>
+Package pdftex.def Info: images/svm_simple.png used on input line 112.
+(pdftex.def)             Requested size: 310.0pt x 261.48058pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <./images/threshold_example.png>]
+<images/processing.png, id=22, 523.9575pt x 273.27094pt>
 File: images/processing.png Graphic file (type png)
 
 <use images/processing.png>
-Package pdftex.def Info: images/processing.png used on input line 124.
-(pdftex.def)             Requested size: 300.0pt x 156.47073pt.
+Package pdftex.def Info: images/processing.png used on input line 134.
+(pdftex.def)             Requested size: 330.0pt x 172.11572pt.
+ [3 <./images/svm_simple.png> <./images/processing.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 143.
+(Font)              <10> on input line 153.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 143.
+(Font)              <7> on input line 153.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 143.
- [3 <./images/processing.png>] [4]
-<images/hand_gestures.png, id=27, 3203.97pt x 560.0925pt>
-File: images/hand_gestures.png Graphic file (type png)
+(Font)              <5> on input line 153.
+ [4] [5] <images/screenshots.png, id=35, 2892.30562pt x 813.0375pt>
+File: images/screenshots.png Graphic file (type png)
 
-<use images/hand_gestures.png>
-Package pdftex.def Info: images/hand_gestures.png used on input line 232.
-(pdftex.def)             Requested size: 500.0pt x 87.40312pt.
- [5 <./images/hand_gestures.png>]
-<images/test_preprocessing.png, id=33, 1246.6575pt x 230.36063pt>
+<use images/screenshots.png>
+Package pdftex.def Info: images/screenshots.png used on input line 242.
+(pdftex.def)             Requested size: 530.0pt x 148.9829pt.
+
+Overfull \hbox (2.42879pt too wide) in paragraph at lines 242--243
+ [][] 
+ []
+
+<images/test_preprocessing.png, id=36, 1246.6575pt x 230.36063pt>
 File: images/test_preprocessing.png Graphic file (type png)
 
 <use images/test_preprocessing.png>
-Package pdftex.def Info: images/test_preprocessing.png used on input line 260.
-(pdftex.def)             Requested size: 500.0pt x 92.39217pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 318.
+Package pdftex.def Info: images/test_preprocessing.png used on input line 271.
+(pdftex.def)             Requested size: 530.0pt x 97.93535pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 291--350
+Overfull \hbox (2.42879pt too wide) in paragraph at lines 271--272
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./images/screenshots.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 327.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 300--359
 []$[]$ 
  []
 
-<images/results_svm_parameters.png, id=34, 745.28438pt x 231.86626pt>
+<images/results_svm_parameters.png, id=42, 745.28438pt x 231.86626pt>
 File: images/results_svm_parameters.png Graphic file (type png)
 
 <use images/results_svm_parameters.png>
 Package pdftex.def Info: images/results_svm_parameters.png used on input line 3
-53.
+64.
 (pdftex.def)             Requested size: 500.0pt x 155.55478pt.
- [6 <./images/test_preprocessing.png>]
-(report.bbl [7 <./images/results_svm_parameters.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./images/test_preprocessing.png>] (report.bbl [8 <./images/results_svm_para
+meters.png>]
 Underfull \hbox (badness 2837) in paragraph at lines 15--21
 []\T1/lmr/m/n/10 KDnuggets.  Sup-port Vec-tor Ma-chines: A Sim-ple Ex-pla-na-ti
 on.  $\T1/lmtt/m/n/10 http : / / www . kdnuggets . com / 2016 / 07 /$
  []
 
-) [8] (report.aux) )
+
+Underfull \hbox (badness 4792) in paragraph at lines 42--47
+[]\T1/lmr/m/n/10 Wikipedia.  Thresh-old-ing (im-age pro-cess-ing).  $\T1/lmtt/m
+/n/10 https : / / en . wikipedia . org / wiki / Thresholding _ (image _$
+ []
+
+) [9] (report.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6111 strings out of 493634
- 87287 string characters out of 3143748
- 180282 words of memory out of 3000000
- 9375 multiletter control sequences out of 15000+200000
+ 6126 strings out of 493634
+ 87647 string characters out of 3143748
+ 178307 words of memory out of 3000000
+ 9388 multiletter control sequences out of 15000+200000
  67680 words of font info for 51 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,15n,39p,843b,1814s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,15n,39p,673b,1814s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{
 C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKT
 eX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvip
@@ -765,9 +810,9 @@ blic/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/lm/lmtt12.pfb>
-Output written on report.pdf (8 pages, 3468444 bytes).
+Output written on report.pdf (9 pages, 4497150 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

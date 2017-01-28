@@ -19,10 +19,30 @@ KDnuggets.
   2016.
 \newblock [Online; accessed 25-01-2017].
 
+\bibitem{thresh:multilevel}
+Martin Luessi, Marco Eichmann, {Guido M.} Schuster, and {Aggelos K.}
+  Katsaggelos.
+\newblock Framework for efficient optimal multilevel image thresholding.
+\newblock {\em Journal of Electronic Imaging}, 18(1), 2009.
+
+\bibitem{singh2010svm}
+Krishna Singh, Indra Gupta, and Sangeeta Gupta.
+\newblock Svm-bdt pnn and fourier moment technique for classification of leaf
+  shape.
+\newblock {\em International Journal of Signal Processing, Image Processing and
+  Pattern Recognition}, 3(4):67--78, 2010.
+
 \bibitem{SVM:Wiki}
 Wikipedia.
 \newblock {Support vector machine}.
-\newblock \url{https://www.wikiwand.com/en/Support_vector_machine}, 2017.
+\newblock \url{https://en.wikipedia.org/wiki/Support_vector_machine}, 2017.
 \newblock [Online; accessed 25-01-2017].
+
+\bibitem{thresh:Wiki}
+Wikipedia.
+\newblock {Thresholding (image processing)}.
+\newblock \url{https://en.wikipedia.org/wiki/Thresholding_(image_processing)},
+  2017.
+\newblock [Online; accessed 26-01-2017].
 
 \end{thebibliography}

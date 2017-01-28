@@ -57,15 +57,20 @@
 
 
     \maketitle
-    
-    \begin{abstract}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus lacus eget congue tincidunt. Morbi a velit justo. Maecenas consectetur eleifend gravida. Vivamus hendrerit ante vel est dictum vehicula. Quisque venenatis rutrum massa, at consectetur mauris posuere id. Integer fermentum, nulla ac mollis convallis, tellus nunc molestie nunc, eget vulputate mi odio eget nulla. Nulla facilisi. Phasellus tempus diam ligula, non tempus elit tristique ac. Donec volutpat neque a arcu pellentesque facilisis. Fusce a tempor eros. Integer imperdiet turpis vel lacus porta, vitae convallis dui luctus. In lobortis, ex id malesuada fringilla, augue metus mollis ipsum, sed auctor nisi turpis nec arcu. Nulla diam felis, congue a odio vitae, sodales fermentum turpis. Nunc vel hendrerit metus, ultricies ullamcorper ligula. 
-    \end{abstract}
-    
+
+    %\vspace{50pt}
 
      \section{Introduction}\label{sec:intro}
      
-        Hand gesture recognition implies the use of image processing along with visual data mining to correctly identify specific gestures that are being shown. The current work presents a simple classifier that using a SVM model, is able to identify between five different gestures (numbers from 1 to 5) when they are shown towards a camera.
+        Hand gesture recognition implies the use of image processing along with visual data mining to correctly identify specific gestures that are present in an image. For this, the gesture has to be performed in front of the camera, where the image of every capture frame is preprocessed and then passed through a machine learning model that identifies the correct class of the image, in this case the gesture shown. This challenge is then a multi-class classification problem, where the meaning of the gesture represents its class.
+        
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=530pt]{images/hand_gestures}
+            \caption{Hand Gestures of Numbers from 1 ot 5} \label{fig:hand_gestures}
+        \end{figure}
+        
+        The current work offers a solution for this, by presenting a simple classifier that is able to identify between five different gestures (numbers from 1 to 5), when they are shown towards a camera. Before performing the prediction the image is passed through a preprocessing stage, that facilitates the identification of the image. Different preprocessing approaches are tested and then passed to a SVM model that classifies the gestures shown as a number between 1 to 5 or a non-gesture. A sample of the gestures that are recognized is shown in Figure \ref{fig:hand_gestures}.
 
      \section{Acronym List}
      
@@ -76,17 +81,25 @@
              \item RGB: Red, Green, Blue
              \item HSV: Hue, Saturation, and Value
              \item OpenCV: Open Source Computer Vision Library
-             \item TODO MORE!
          \end{itemize}
      
     \section{Theoretical Assumptions}
     
+        \vspace{10pt}
         \subsection{Thresholding}
-        TODO!!!
+        Thresholding is a process of converting an input image to a bi-level image by using an optimal threshold. The purpose of thresholding is to extract those pixels from some image which represent an object (either text or other line image data such as graphs, maps). Though the information is binary the pixels represent a range of intensities. Thus the objective of binarization is to mark pixels that belong to true foreground regions with a single intensity and background regions with different intensities \cite{thresh:Wiki}. An example of a threshold applied over an image can be seen in Figure \ref{fig:threshold_example}.
         
-        \subsection{Hue, Saturation, and Value - HSV}
+        In the case of this work a multiband thresholding is used.  This thresholding technique performs a separate threshold for each of the HSV components of the image and then combine them with an AND operation. This reflects the way the camera works and how the data is stored in the computer \cite{thresh:multilevel}. 
         
-        TODO!!!
+        \vspace{30pt}
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=300pt]{images/threshold_example}
+            \caption{Example of Thresholding} \label{fig:threshold_example}
+        \end{figure}
+        
+        \vspace{20pt}
         
         \subsection{Support Vector Machine - SVM}
         
@@ -96,7 +109,7 @@
     
         \begin{figure}[h!]
             \centering
-            \includegraphics[width=300pt]{images/svm_simple}
+            \includegraphics[width=310pt]{images/svm_simple}
             \caption{Simple Visualization of SVM} \label{fig:svm_simple}
         \end{figure}
     
@@ -104,10 +117,7 @@
         
         SVM is usually used for text classification tasks such as category assignment, detecting spam and sentiment analysis. It is also commonly used for image recognition challenges, performing particularly well in aspect-based recognition and color-based classification. SVM also plays a vital role in many areas of handwritten digit recognition, such as postal automation services \cite{SVM:Simple}.
         
-        \subsection{Cross-Validatino}
-        
-        TODO!!!
-    
+        \vspace{20pt}
     \section{Algorithm Description}\label{sec:algorithms}
     
          The developed solution is divided in four different main tasks, each one necessary for the Hand Gesture Classifier. Below there is a description of each task and its the pseudo-code.
@@ -121,7 +131,7 @@
     
         \begin{figure}[h!]
             \centering
-            \includegraphics[width=300pt]{images/processing}
+            \includegraphics[width=330pt]{images/processing}
             \caption{Final Preprocessing of the a Hand Gesture Image} \label{fig:processing}
         \end{figure}
     
@@ -225,20 +235,21 @@
     \section{Implementation}
          The program written for this work was developed in \texttt{C++}, using the computer vision and machine learning software library OpenCV \cite{OpenCV} version 3.1. All images captured for this program were taken using a standard webcam of a laptop (USB2.0 HD UVC WebCam) .
          
-         As mentioned in Section \ref{sec:intro}, the current work includes five specific hand gestures of the first five numbers, along with the empty background. A sample of this gestures can be seen in Figure \ref{fig:hand_gestures} and would be the only gestures the program can recognize. Additionally, in Figure REF!!!, the final user interface for the Configure Camera task (left) and the Read From Camera and Classify Gestures task (right) can be appreciated.
+         As mentioned in Section \ref{sec:intro}, the current work includes five specific hand gestures of the first five numbers, along with the empty background. A sample of this gestures can be seen in Figure \ref{fig:hand_gestures} and would be the only gestures the program can recognize. Additionally, in Figure \ref{fig:screenshots}, the final user interface for the Configure Camera task (left) and the Read From Camera and Classify Gestures task (right) can be appreciated.
          
-         \begin{figure}[h!]
-             \centering
-             \includegraphics[width=500pt]{images/hand_gestures}
-             \caption{Hand Gestures of Numbers from 1 ot 5} \label{fig:hand_gestures}
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=530pt]{images/screenshots}
+            \caption{Final User Interface} \label{fig:screenshots}
         \end{figure}
+
          
          The dataset of these gestures is composed of 926 images (around 150 images per gesture), which were frames taken from videos performing the gesture, by three individuals. These images are stored in the \texttt{images} folder in the root of the program.
          
          
     \section{Tests description}\label{sec:tests}
         
-        In order to find the best solution for the Hand Gesture Classifier, two different tasks of the process had to be refined: the preprocessing of the images and tuning the SVM model's parameters.
+        In order to find the best solution for the Hand Gesture Classifier, two different tasks of the process had to be refined: the preprocessing of the images and tuning the SVM model's parameters. The different tests performed to find the best approach for each task is described below.
         
         \begin{enumerate}
             \item Preprocessing Methods:\\
@@ -248,7 +259,7 @@
                 \item Gray Scale: Consists in converting the image into its gray scale representation. For this the default values of OpenCV where used, where $gray\_value = 0.30xR + 0.59xG + 0.11xB$
                 \item Reduce Color Space: Three different images to test where produced by this method where the representations of each RGB channel was used.
                 \item Thresholding: A simple threshold was applied to the image, optimizing its HSV values as explained in Section \ref{sec:algorithms}. For this the image was transformed from RGB to HSV and then the function \texttt{inRange} of the OpenCV library was used.
-                \item Thresholding + Blur: A last approach was implemented where the threshold process was performed to the image as described before, and afterwards a noise reduction effect was added in order to reduce the empty spaces within the image. For this a median blur was used using the OpenCV function \texttt{medianBlur} with \texttt{blurSize = 5}.
+                \item Thresholding + Blur: A last approach was implemented where the threshold process was performed to the image, and afterwards a noise reduction effect was added in order to reduce the empty spaces within the image. For this a median blur was used using the OpenCV function \texttt{medianBlur} with \texttt{blurSize = 5}.
             \end{enumerate}
 
             \item SVM Model Tunning:\\
@@ -257,7 +268,7 @@
         
         \begin{figure}[h!]
             \centering
-            \includegraphics[width=500pt]{images/test_preprocessing}
+            \includegraphics[width=530pt]{images/test_preprocessing}
             \caption{Final Preprocessing of the a Hand Gesture Image} \label{fig:test_preprocessing}
         \end{figure}
                 
@@ -265,8 +276,9 @@
     
     \section{Results}\label{sec:results}
     
-    The results of the tests described in Section \ref{sec:tests} are used to find the best process for the Hand Gesture Classifier. Table \ref{tab:preprocessing} shows the results for the different preprocessing methods, whereas Tables \ref{tab:results_gamma} and \ref{tab:results_c} show the results of the SVM model tunning process, which can be graphically appreciated in Figure REF!!.
+    The results of the tests described in Section \ref{sec:tests} are used to find the best process for the Hand Gesture Classifier. Table \ref{tab:preprocessing} shows the results for the different preprocessing methods, whereas Tables \ref{tab:results_gamma} and \ref{tab:results_c} show the results of the SVM model tunning process, which can be graphically appreciated in Figure \ref{fig:results_svm_parameters}.
 
+    \vspace{10pt}
     \begin{table}[h!]
         \centering
         \caption{Preprocessing Methods Test Results}
@@ -284,16 +296,13 @@
         \end{tabular}
     \end{table}
     
-    
-
-    
-    
+    \vspace{15pt}
     \begin{minipage}{\textwidth}
         \begin{minipage}[b]{0.49\textwidth}
             \centering
             \begin{tabular}{|l|c|}
                 \hline
-                \multicolumn{1}{|c|}{\textbf{$\gamma$}} & \textbf{Accuracy on Test with} \\ \hline
+                \multicolumn{1}{|c|}{\textbf{$\gamma$}} & \vtop{\hbox{\strut \textbf{Accuracy on Test}}\hbox{\strut \textbf{with $C = 0.5$}}} \\ \hline
                 0.5                              & 92.446\%                       \\ \hline
                 1                                & 92.806\%                       \\ \hline
                 1.5                              & 92.806\%                       \\ \hline
@@ -322,7 +331,7 @@
             \centering
                 \begin{tabular}{|l|c|}
                     \hline
-                    \multicolumn{1}{|c|}{\textbf{$C$}} & \textbf{Accuracy on Test with $\gamma$ = 0.5} \\ \hline
+                    \multicolumn{1}{|c|}{\textbf{$C$}} & \vtop{\hbox{\strut \textbf{Accuracy on Test}}\hbox{\strut \textbf{with $\gamma$ = 0.5}}} \\ \hline
                     0.5                              & 94.604\%                               \\ \hline
                     1                                & 95.324\%                               \\ \hline
                     1.5                              & 94.964\%                               \\ \hline
@@ -348,15 +357,18 @@
         \end{minipage}
     \end{minipage}
     
+    \vspace{30pt}
+    
     \begin{figure}[h!]
         \centering
         \includegraphics[width=500pt]{images/results_svm_parameters}
         \caption{SVM Parameters Tunning Results} \label{fig:results_svm_parameters}
     \end{figure}
-    
-    
+
+    \vspace{20pt}
     With this results the best configuration was defined as using the thresholding + blur method for preprocessing and the parameters $\gamma = 0.55$ and $C = 2.5$ for the SVM model.  As mentioned in Section \ref{sec:tests}, a 3-fold cross-validation was performed over this final process, whose results can be seen in Table \ref{table:cross_val}.
-    
+
+    \vspace{10pt}
     \begin{table*}[h!]
         \centering
         \caption{3-Fold Cross Validation for the SVM Model}
@@ -375,12 +387,20 @@
         \end{tabular}
     \end{table*}
     
-    
+    \vspace{25pt}
     \section{Conclusions and Future Work}
     
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus lacus eget congue tincidunt. Morbi a velit justo. Maecenas consectetur eleifend gravida. Vivamus hendrerit ante vel est dictum vehicula. Quisque venenatis rutrum massa, at consectetur mauris posuere id.
+    The current work presents a solution for a multi-class classification problem such as identifying hand gestures performed in front of a camera. By preprocessing the images captured by the camera, with a threshold and noise reduction effect, and using a tunned SVM model with a linear kernel, the solution has an average accuracy of 98.107, using a 3-fold cross-validation process over a dataset composed of 926 frames of gestures performed by three different people.
     
-
+    Even though the results obtained in the cross-validation of the predictions are considered excellent, it is important to mention that this results highly depend on the conditions of the environment where the gestures are performed. The light, the background and the hand posture have a significant impact on the accuracy of the predictions, nevertheless this was only tested empirically with when using the Read From Camera and Classify Gestures functionality (described in Section \ref{sec:algorithms}) of the program.
+    
+    It is also important to notice that one of the possible reasons for the high accuracy in the results obtained might be the use of different frames of the same video for creating the complete dataset. This might have overfitted the model in the sense that, even though the images used for the training and testing sets are different, they belong to the same video.
+    
+    A further work in preprocessing the images is needed in order to reduce the dependency on the optimal conditions of the environment. Other approaches different from thresholding can be tried such applying a Furier transformation, which have been proved to help classification problems when identifying different shapes \cite{singh2010svm}.
+    
+    
+    
+    \vspace{30pt}
      
    \bibliographystyle{plain}
    \vspace{5ex}\bibliography{report} 
