@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{SVM:Cortes1995}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Machine Learning}, 20(3):273--297, 1995.
+
+\bibitem{OpenCV}
+Itseez.
+\newblock {OpenCV}.
+\newblock \url{http://opencv.org/}, 2017.
+\newblock [Online; accessed 25-01-2017].
+
+\bibitem{SVM:Simple}
+KDnuggets.
+\newblock {Support Vector Machines: A Simple Explanation}.
+\newblock
+  \url{http://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html},
+  2016.
+\newblock [Online; accessed 25-01-2017].
+
+\bibitem{SVM:Wiki}
+Wikipedia.
+\newblock {Support vector machine}.
+\newblock \url{https://www.wikiwand.com/en/Support_vector_machine}, 2017.
+\newblock [Online; accessed 25-01-2017].
+
+\end{thebibliography}
