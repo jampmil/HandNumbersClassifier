@@ -19,4 +19,4 @@
 *.rb linguist-language=C++
 
 special-vendored-path/* linguist-vendored
-Report linguist-vendored=false
+Report/report.tex linguist-vendored=false
