@@ -17,3 +17,6 @@
 *.RTF	 diff=astextplain
 
 *.rb linguist-language=C++
+
+special-vendored-path/* linguist-vendored
+Report linguist-vendored=false
